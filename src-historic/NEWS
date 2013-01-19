@@ -1,0 +1,19 @@
+Changes between 0.2 and 0.2.1:
+
+  * Some _really_ annoying and obvious bugs fixed.
+
+Changes between 0.1 and 0.2:
+
+  * Aspect ratio hints are supported. This is used by clients such as mplayer
+    who wants to keep the aspect ratio intact when resizing the window.
+  * If the window manager is restarted, clients will reappear on the same
+    workspace they were on when the window manager was terminated.
+  * Transient windows automatically receive input focus when they are mapped
+    if their owner currently has input focus. They are also centered on their
+    owner.
+  * There is now a context menu for clients. ALT + Button3 on the client.
+  * Inactive clients have grayscaled decorations.
+  * Decorations looks better.
+  * The title in the window frame can be updated by the client.
+  * Windows can be "sticky" - visible on all workspaces.
+  * Window frames have 3 buttons.

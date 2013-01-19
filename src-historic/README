@@ -1,0 +1,30 @@
+RELEASE NOTES FOR MAVOSXWM 0.2.1
+
+There are still many things to fix, I can't list all of them here, however:
+  Do not make a window with aspect ratio very small. Inifinite loop.
+  Do not yet use this window manager on a system with more than one X11 screen.
+
+As I've said before, be careful. This window manager SHOULD work be I do not
+make any guarantees that it actually does.
+
+To build it, Xft-2.0 and Glib-2.0 are required.
+
+NEWS contains the changes that might be interesting to the user.
+ChangeLog contains all changes.
+
+Before the config system is fixed, all key and button bindings are hard coded.
+
+Button1 on title raises and moves window.
+Button1 on borders raises resizes window.
+Button2 on title resizes window.
+Button2 on borders moves window.
+Button3 on title or borders lowers window.
+
+Button1 + ALT on client moves window.
+Button2 + ALT on client resizes window.
+Button3 + ALT on client displays context menu.
+
+CTRL + ALT + Left switches to previous workspace.
+CTRL + ALT + Right switches to next workspace.
+
+There are currently 4 hard coded workspaces.
