@@ -4,7 +4,12 @@ only X window manager that even I would take home to Mom. kowm has decided
 that 'extensible simplicity' is the wave of the future; and we tend to agree.
 
 ## kowm-core
-kowm-core is made up of six modular desktop libraries; five handle the basic features that make for a beautifully simple window manager and the sixth is a framework for building, attaching, and manipulating new modular extensions. Since speed is of the essence here, we're planning on writing kowm-core in C++.
+kowm-core /kōm-kôr/ is made up of six modular desktop libraries; five handle 
+the basic features that make for a beautifully simple window manager and the 
+sixth is a framework for building, attaching, and manipulating new modular 
+extensions. Since speed is of the essence here, we're planning on writing kowm
+-core in C++.
+
 ## Requirements
 Any kowm installation will require, at a bare minimum, the first 6 'core' 
 libraries:
