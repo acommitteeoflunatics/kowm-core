@@ -1,27 +1,13 @@
-## Introduction
-
-Having searched for many years for a usable Linux window manager that both 
-appealed to my sense of aesthetics and had at least some of the features I 
-feel necessary for a 'proper' WM; I only came across one which [at least 
-partially] fit the bill. `Mavosxwm` was the creation of `Martin Vollrathson` 
-and hadn't been updated in any way for a long time at that point. After 
-obtaining permission from him, I forked Mavosxwm to use in the creation of 
-`koWm`. I will be keeping the tabbed interface, the theming mechanism, and 
-most of the event-handling code; but I believe a change of language is in 
-order before implementing additions and changes to the existing codebase. My 
-first thoughts were to use Python as my base language; now I'm leaning towards 
-something Ruby-flavored. To build this wm I have decided to, first, build a set
-of six of a final twelve desktop libraries so that I may make this window 
-manager as extensible as it cares to be. It will be named `koWm` [ sounds like
-kohm or comb ] and will be the first application built using the `kobol` 
-collection of libraries found at libs/kobol.
-
 ## kowm
-`koWm`, a modular and extensible window manager for Xorg based on xcb rather than
-the archaic xlib.
+kowm ( /kōm/ ) never wanted to be anything more when she grew up than the 
+only X window manager that even I would take home to Mom. kowm has decided 
+that 'extensible simplicity' is the wave of the future; and we tend to agree.
 
+## kowm-core
+kowm-core is made up of six modular desktop libraries; five handle the basic features that make for a beautifully simple window manager and the sixth is a framework for building, attaching, and manipulating new modular extensions. Since speed is of the essence here, we're planning on writing kowm-core in C++.
 ## Requirements
-Any installation will require, at a bare minimum, the first 6 'core' kobol libraries:
+Any kowm installation will require, at a bare minimum, the first 6 'core' 
+libraries:
 
 -	`caprica` handles low-level window management 
 -	`gemoni` handles low-level network management 
@@ -30,9 +16,9 @@ Any installation will require, at a bare minimum, the first 6 'core' kobol libra
 -	`piscera` handles low-level system menuing
 -	`virgon` handles low-level system translation 
 
-Core libraries are to be coded in C++ unless a compelling case can be made against it.
-
+All core libraries are to be coded in C++ unless a compelling case can be 
+made against it.
 
 ============
-Copyright (c) 2011, Jerry W Jackson
+Copyright (c) 2009, 2010, 2011, 2012, 2013, Jerry W Jackson
 All rights reserved.
