@@ -17,7 +17,7 @@ libraries:
 -	:capricorn: caprica handles low-level window management 
 -	:gemini: gemoni handles low-level network management 
 -	:leo: leonis handles low-level graphics
--	:sagitarius: sagitara is a low-level framework for building and connecting modules
+-	:sagittarius: sagitara is a low-level framework for building and connecting modules
 -	:pisces: piscera handles low-level system menuing
 -	:virgo: virgon handles low-level system translation 
 
