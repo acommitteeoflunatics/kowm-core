@@ -14,12 +14,12 @@ extensions. Since speed is of the essence here, we're planning on writing kowm
 Any kowm installation will require, at a bare minimum, the first 6 'core' 
 libraries:
 
--	`caprica` handles low-level window management 
--	`gemoni` handles low-level network management 
--	`leonis` handles low-level graphics
--	`sagitara` is a low-level framework for building and connecting modules
--	`piscera` handles low-level system menuing
--	`virgon` handles low-level system translation 
+-	:capricorn: caprica handles low-level window management 
+-	:gemini: gemoni handles low-level network management 
+-	:leo: leonis handles low-level graphics
+-	:sagitarius: sagitara is a low-level framework for building and connecting modules
+-	:pisces: piscera handles low-level system menuing
+-	:virgo: virgon handles low-level system translation 
 
 All core libraries are to be coded in C++ unless a compelling case can be 
 made against it.
