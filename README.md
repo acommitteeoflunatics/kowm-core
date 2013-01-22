@@ -11,7 +11,9 @@ extensions. Since speed is of the essence here, we're planning on writing kowm-c
 
 ## Requirements
 Any kowm installation will require, at a bare minimum, the first six 'core' 
-libraries:
+libraries; other requirments will be made known closer to initial release.
+
+## Libraries
 
 -	:capricorn: caprica provides low-level constructs shared by all 'windows'; including the root window.
 -	:gemini: gemoni provide basic workspace management and functionality.
