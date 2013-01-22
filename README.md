@@ -25,5 +25,5 @@ All core libraries are to be coded in C++ unless a compelling case can be
 made against it.
 
 ============
-Copyright (c) 2009, 2010, 2011, 2012, 2013, Jerry W Jackson
+Copyright :copyright: 2009, 2010, 2011, 2012, 2013, Jerry W Jackson
 All rights reserved.
