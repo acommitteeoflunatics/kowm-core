@@ -19,6 +19,7 @@ div#nav {
   padding-bottom: 5px;
   /*border: 1px outset silver;*/
   clear:both;
+  text-align: center;
 }
 div#details {
   margin-right:12%;
@@ -31,6 +32,10 @@ div.header {
   color:silver;
   border: none;
 }
+div.breadcrumb {
+  float:center;
+  text-align: center;
+}
 div.footer {
   font-size:80%;
   color:silver;
@@ -38,6 +43,7 @@ div.footer {
   padding-top: 5px;
   padding-bottom: 5px;
   vertical-align: middle;
+  text-align: center;
 }
 div.width {
   width:800px;
@@ -45,12 +51,17 @@ div.width {
 }
 img {
   text-decoration:none;
-  border:thin solid;
+  border: 0 solid;
 }
 img#logo {
   text-decoration:none;
   border:0 solid;
   float:right;
+}
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 img.noborder {
   border: 0 none;
@@ -80,7 +91,47 @@ iframe {
 #floater {
   text-align:center;
 }
+/* used to style 404 iframe pulling data from notfound.org */
+#notfound_org {
+  border:0;
+}
+/* general css classes for layout manipulation */
+/* layout styling for custom 404 page elements */
+.fourohfour {
+  border:0;
+  font-size:100%;
+  text-align:left;
+  width:800px;
+}
+/* used to style a generic block of code */
+.code {
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+  font-family:monospace;
+  text-align:left
+}
+ul
+{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+}
+li {
+  padding-left: 10px;
+  background-repeat: no-repeat;
+  background-position: 0 2px;
+}
+/* used to mark a public repo */
+li.public {
+  background-image: url(images/icon_unlocked.gif);
+}
+/* used to mark a private repo */
+li.private {
+  background-image: url(images/icon_locked.gif);
+}
+/* self-explanatory */
 .superscript {
   vertical-align: super;
   font-size:60%;
-}   
+}
