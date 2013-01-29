@@ -20,7 +20,7 @@ libraries; other requirments will be made known closer to initial release.
 -   `baseDecor` provides a basic graphics subsystem from which all graphics toolkit modules can hook into and manipulate objects.
 - 	`baseFare` provides automatic menu generation of the system menu, the desktop menu and the application menus.
 -   `baseFlaps` provides a robust tabbing mechanism
--   `baseGear` provides low-level constructs shared by all 'objects'; such as Spaces, Flaps and 'windows' (including the root window).
+-   `baseGear` provides simple constructs shared by all 'objects'; e.g. Spaces, Flaps and 'windows' (including the root window).
 -   `baseOverseer` provides advanced maniuplation of 'objects'; aka 'window' management.
 -   `baseSpaces` provide basic workspace management and functionality.
 
