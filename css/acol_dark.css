@@ -1,0 +1,35 @@
+/* import base css file so we can have changeable themes */
+@import url("acol_base.css");
+/* set color-related items */
+body {
+  background-color:#000000;
+  color:#c0c0c0; 
+  font-family:" Ubuntu", "Droid Sans", "Lucida Sans Unicode", sans-serif;
+}
+div#wrapper { 
+  /*border: 1px solid #c0c0c0; */
+}
+div#nav {
+  color:#c0c0c0;
+  /*border: 1px solid #c0c0c0; */
+}
+div.header {
+  color:#c0c0c0;
+}
+div.footer {
+  color:#c0c0c0;
+}
+a {
+  color:#1e90ff;
+  text-decoration:none;
+  letter-spacing:1px;
+}
+a:visited {
+  color:#6495ED;
+}
+a#current {
+  color:#c0c0c0;
+}
+a:hover {
+  color:#a0522d;
+}

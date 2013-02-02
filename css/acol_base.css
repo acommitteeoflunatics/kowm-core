@@ -1,53 +1,58 @@
 body {
-  background-color:black;
-  color:white; 
-  font-family:"Droid Sans", "Lucida Sans Unicode", sans-serif;
+  font-family:" Ubuntu", "Droid Sans", "Lucida Sans Unicode", sans-serif;
   text-align:left;
   margin-right:12%;
   margin-left:12%;
 }
+div#outer {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 div#wrapper { 
   text-align: left; 
-  margin: 0 auto; 
-  width: 900px; 
-  /*border: 1px solid silver; */
+  width: 100%; 
+  margin-left: auto;
+  margin-right: auto;
 }
 div#nav {
-  color:silver;
-  width: 900px;
+  width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
-  /*border: 1px outset silver;*/
   clear:both;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 div#details {
   margin-right:12%;
   text-align:justify;
+  margin-left: auto;
+  margin-right: auto;
   }
 div.header {
-  width: 900px;
+  font-size: 80%;
   padding-top: 5px;
   padding-bottom: 5px;
-  color:silver;
   border: none;
-}
-div.breadcrumb {
-  float:center;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 div.footer {
   font-size:80%;
-  color:silver;
-  width: 900px;
+  width: 100%; 
   padding-top: 5px;
   padding-bottom: 5px;
   vertical-align: middle;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 div.width {
-  width:800px;
+  width: 100%; 
   text-align:left;
+  margin-left: auto;
+  margin-right: auto;
 }
 img {
   text-decoration:none;
@@ -56,26 +61,26 @@ img {
 img#logo {
   text-decoration:none;
   border:0 solid;
-  float:right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img#html5-logo {
+  text-decoration:none;
+  border:0 solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 32px;
 }
 img.centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 32px;
 }
 img.noborder {
   border: 0 none;
-}
-a {
-  color:dodgerblue;
-  text-decoration:none;
-  letter-spacing:1px;
-}
-a:hover {
-  color:cornsilk;
-}
-a#current {
-  color:cornsilk;
 }
 #labels {
   float:left;
@@ -101,14 +106,14 @@ iframe {
   border:0;
   font-size:100%;
   text-align:left;
-  width:800px;
-}
+  width: 100%; 
+  
 /* used to style a generic block of code */
 .code {
   margin-left:auto;
   margin-right:auto;
   width:80%;
-  font-family:monospace;
+  font-family:"monospace";
   text-align:left
 }
 ul
