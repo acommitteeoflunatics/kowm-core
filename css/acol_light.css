@@ -4,7 +4,6 @@
 body {
   background-color:#ffffff;
   color:#9c9c9c; 
-  font-family:" Ubuntu", "Droid Sans", "Lucida Sans Unicode", sans-serif;
 }
 div#wrapper { 
   /*border: 1px solid #9c9c9c; */
@@ -34,4 +33,14 @@ a#current {
 }
 a:hover {
   color:#a0522d;
+}
+img.shadow {
+  border: 0 none;
+  -moz-box-shadow: 3px 3px 4px #111;
+  -webkit-box-shadow: 3px 3px 4px #111;
+  box-shadow: 3px 3px 4px #111;
+  /* For IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111')";
+  /* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111');
 }
